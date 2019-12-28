@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		var colorArray = ["#5A9C6E", "#A8BF5A", "#FAC46E", "#FAD5BB", "#F2FEFF"]; // создаем массив с цветами фона
+var i = 0; 
+
+function changeColor(){
+document.body.style.background = colorArray[i]; 
+i++;
+if( i > colorArray.length - 1){
+i = 0;
+}
+}
+	</script>
+<head>
+	<title>Контакты</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="https://sun9-47.userapi.com/c853420/v853420167/d8e01/2mV-ykz4tNE.jpg">
+	<link rel="stylesheet" href="home.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="https://sun9-47.userapi.com/c853420/v853420167/d8e01/2mV-ykz4tNE.jpg" class="logo">LOGO</a>
+			<nav>
+				<ul>
+				<li><a href="6Gclass.html">Главная</a></li>	
+				<li><a href="https://vk.com/carolinez">Классный руководитель Анастасия Андреевна</a></li>
+				<li><a href="Teachers.html">Учителя</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<hr>
+	<h2 align="center">С Новым Годом!</h2>
+	<hr>
+	<h2><a href="https://vk.com/id270493572">Создатель сайта</a></h2>
+	<hr>
+	<button onclick="changeColor()">Сменить цвет фона</button>
+</body>
+</html>

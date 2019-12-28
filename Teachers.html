@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<script>
+		var colorArray = ["#5A9C6E", "#A8BF5A", "#FAC46E", "#FAD5BB", "#F2FEFF"]; // создаем массив с цветами фона
+var i = 0; 
+
+function changeColor(){
+document.body.style.background = colorArray[i]; 
+i++;
+if( i > colorArray.length - 1){
+i = 0;
+}
+}
+	</script>
+<head>
+	<meta charset="utf-8">
+	<title>Учителя</title>
+	<link rel="shortcut icon" href="https://sun9-47.userapi.com/c853420/v853420167/d8e01/2mV-ykz4tNE.jpg">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<a href="https://sun9-47.userapi.com/c853420/v853420167/d8e01/2mV-ykz4tNE.jpg" class="logo">LOGO</a>
+			<nav>
+				<ul>
+				<li><a href="6Gclass.html">Главная</a></li>	
+				<li><a href="contacs.html">Контакты</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<hr>
+<h1 align="center">Наши учителя</h1>
+	<hr>
+	<button onclick="changeColor()">Сменить цвет фона</button>
+<ul>
+	<li>Анастасия Гаязова Андреевна — Учитель немецкого языка у 2 группы и наш классный руководитель</li>
+	<li>Анастасия Аганина Павловна — Учитель русского (родного) языка и лит-ры</li>
+	<li>Михаил Дягилев Васильевич — Учитель истории и обществознания</li>
+	<li>Андрей Калинин Александрович — Учитель ОБЖ</li>
+	<li>Максим Стрельников Евгеньевич — Учитель биологии</li>
+	<li>Ольга Шишлянникова Владимировна — Учитель географии</li>
+	<li>Алексей Елистратов Андреевич — Учитель технологии у мальчиков</li>
+	<li>Наталья Лисина Викторовна — Учитель технологии у девочек</li>
+	<li>Елена Ульянова Александровна — Учитель ИЗО</li>
+	<li>Александра Бычина Павловна — Учитель математики</li>
+	<li>Наталья Муратова Владимировна — Учитель музыки</li>
+</ul>
+<p>Думаю в списке учеников этот сайт не нуждается</p>
+</body>
+</html>
